@@ -88,3 +88,8 @@ Plot the linear regression model on top of the previous scatter plot.
 
 # Sources
 
+• Help from TA Matthew Werth and other staff
+
+• Met up w/ other students during study groups to hash out the code through what we have learned so far
+
+• Used StackOverFlow and ChatGPT for issues on the code and/or to explain why certain pieces of the script were not running as intended
