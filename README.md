@@ -94,6 +94,38 @@ Plot the linear regression model on top of the previous scatter plot.
 
 • Used StackOverFlow and ChatGPT for issues on the code and/or to explain why certain pieces of the script were not running as intended
 
-- - -
+# Notes
+
+What is the code supposed to be doing? What is the purpose of this exercise? 
+
+The main purpose of this exercise is to really put to the test the things we have learned in class so far and show that we can create various types of graphs, lines, plots, and charts with different information pulled from the dataset we’ve been given. Overall, this is a fun project as I got to explore all the material learned in recent classes all on my own. 
+
+Syntax Learned:
+
+•	.merge() - is used to merge two or more pandas DataFrames based on a common column or index. It is similar to the SQL JOIN operation.
+
+•	.loc - is used to access a group of rows and columns by labels or a boolean array. It is primarily used with pandas DataFrames and Series for label-based indexing.
+
+•	.var() - is used to calculate the variance of a set of values.
+
+•	.std() - is used to calculate the standard deviation of a set of values. This function is often applied to pandas Series or NumPy arrays. Standard deviation is a measure of the amount of variation or dispersion in a set of values.
+
+•	.sem() - is used to calculate the standard error of the mean (SEM) of a set of values. The standard error of the mean is a measure of how much the sample mean is expected to vary from the true population mean.
+
+•	autopct= - is used with pie charts to display the percentage distribution of each wedge. This is optional, and if not specified, percentages won’t be displayed on the pie chart
+
+•	.isin() – is used to filter data frames or series based on a particular set of values. It is often used to select rows that have values present in a specified list or another iterable.
+
+•	.iloc – is used for integer-location based indexing. It allows for the selection of rows and columns from a dataframe or series by specifying integer indices.
+
+•	.stack() – is a function used to convert the data from a wide format (with multiple columns) to a long format, specifically creating a multi-index series. This operation is often used as “stacking” because it effectively stacks the specified levels of a dataframe’s columns into a single level, resulting in a series with a multi-index.
+
+•	.unstack() – is the reverse operation of the .stack() function when working with dataframes. It is used to pivot a level of the multi-index labels, effectively transforming a multi-level index into multiple columns. This operation is often referred to as “unstacking.” 
+
+•	.quantile() – is used to compute the quantile of a set of data. Quantiles are values that divide the dataset into intervals of equal provability. The most commonly used quantiles are the median (quantile 0.5), quartiles (quantiles 0.25, 0.5, and 0.75), and percentiles (quantiles expressed as a percentage, the 25th, 50th, and 75th percentiles). 
+
+•	.dropna() – this method is used to remove missing (NaN) values from a dataframe or series. It is a convenient way to clean or pre-process data by eliminating rows or columns that contain missing values. 
+
+- - - - - - 
 
 This is submitted by Jesse Olivarez for the University of Utah: Data Analytics Bootcamp
